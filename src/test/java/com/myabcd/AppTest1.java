@@ -15,6 +15,14 @@ public class AppTest1
     @Test
     public void shouldAnswerWithTrue()
     {
+		System.out.println("in test caseeeeeeeeeeeee");
+        assertFalse( true );
+    }
+	
+	@Test
+    public void shouldAnswerWithTrue1()
+    {
+		System.out.println("in test case2222222222222");
         assertTrue( true );
     }
 }
